@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio GNU - Venezuela</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- #000000; -->
+    <!-- #0B0827; -->
+    <!-- #162159; -->
+    <!-- #1C618B; -->
+    <!-- #1B778C; -->
+    <!-- #36A6A7; -->
+    <!-- #F2F2F2; -->
+    <style>
+        @font-face {
+            font-family: 'Folks-Bold';
+            src: url('assets/fonts/Folks-Bold.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'Folks-Normal';
+            src: url('assets/fonts/Folks-Normal.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'Folks-Black';
+            src: url('assets/fonts/Folks-Black.ttf') format('truetype');
+        }
+    </style>
+</head>
+<body class="h-screen w-full bg-black font-[Folks-Normal] text-xl">
+    
+    <div class="fixed h-full w-full bg-slate-950">
+        <div class="
+            fixed bottom-0 left-0 right-0 top-0 
+            bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)]  bg-[size:14px_24px] 
+            [mask-image:radial-gradient(ellipse_60%_100%_at_50%_0%,#000_70%,transparent_100%)]
+        "></div>
+    </div>
+
+    <main class="flex flex-col max-w-md m-auto relative justify-center items-center h-screen">
+        <header class="flex items-center mb-6 gap-4 justify-center">
+            <img class="size-16" src="assets/images/logo.svg" alt="Logo Radio GNU Venezuela">
+            <h1 class="text-[#0000CC] font-[Folks-Bold] text-5xl">Radio GNU</h1>
+        </header>
+        <section class="flex flex-col items-center gap-2">
+            <h2 class="text-red-700 flex gap-1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-headphones-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M21 18a3 3 0 0 1 -2.824 2.995l-.176 .005h-1a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-3a3 3 0 0 1 2.824 -2.995l.176 -.005h1c.351 0 .688 .06 1 .171v-.171a7 7 0 0 0 -13.996 -.24l-.004 .24v.17c.25 -.088 .516 -.144 .791 -.163l.209 -.007h1a3 3 0 0 1 2.995 2.824l.005 .176v3a3 3 0 0 1 -2.824 2.995l-.176 .005h-1a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-6a9 9 0 0 1 17.996 -.265l.004 .265v6z" stroke-width="0" fill="currentColor" /></svg>
+                Estás escuchando:
+                <span class="font-[Folks-Bold]">Buena música</span>
+            </h2>
+            <audio controls>
+                <source src="http://radio.gnuve.org:8000/radio.ogg" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        <section class="flex flex-col justify-center gap-2 text-gray-600 p-6 my-6 bg-gradient-to-r from-[#0B0827] to-[#0000CC]">
+            <p class="text-white font-[Folks-normal]">
+                <span class="text-yellow-400 font-[Folks-Bold]">Hoy!</span>
+                No te pierdas hoy Las cuatro libertades del software libre, con 
+                <a href="#" target="_blank" class="font-[Folks-Bold] text-[#36A6A7] hover:text-[#2D7D7E] transition-all duration-300 ease-in-out">
+                    @Richard Stallman
+                </a>.
+            </p>
+            <ul class="p-0">
+                <li>21H 🇺🇾 🇦🇷 🇨🇱 🇵🇾 🇧🇷</li>
+                <li>20H 🇹🇹 🇧🇴 🇻🇪 🇩🇴 🇵🇷</li>
+                <li>19H 🇨🇴 🇵🇪 🇪🇨 🇨🇺 🇵🇦</li>
+                <li>18H 🇲🇽 🇨🇷 🇳🇮 🇸🇻 🇭🇳 🇬🇹</li>
+                <li>16H 🇺🇸</li>
+                <li>1H 🇪🇸</li>
+            </ul>
+        </section>
+        <footer class="text-gray-600 text-center">
+            <p class="border-b border-gray-800 pb-6 mb-6">
+                Estamos armando la programación, 
+                <a href="mailto:octavio.rossell@gmail.com" class="font-[Folks-Bold] text-[#36A6A7] hover:text-[#2D7D7E] transition-all duration-300 ease-in-out">
+                    contactanos
+                </a>
+                si quieres un espacio de comunicación.
+            </p>
+            <p>
+                Visita nuestra página web:
+                <a href="https://gnuve.org" class="font-[Folks-Bold] text-[#36A6A7] hover:text-[#2D7D7E] transition-all duration-300 ease-in-out">
+                    GNU Venezuela
+                </a>
+            </p>
+        </footer>
+    </main>
+</body>
+</html>
